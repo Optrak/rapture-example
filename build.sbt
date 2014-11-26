@@ -15,12 +15,13 @@ scalaVersion := "2.11.2"
 
 libraryDependencies ++= {
   Seq(
-//    "commons-io" % "commons-io" % "2.4",
-    "org.slf4j" % "slf4j-api" % "1.7.7", 
+    "org.slf4j" % "slf4j-api" % "1.7.7",
     "ch.qos.logback" % "logback-classic" % "1.1.2", 
     "org.clapper" %% "grizzled-slf4j" % "1.0.2",
-    "org.json4s" %% "json4s-native" % "3.2.10",
+    //"org.json4s" %% "json4s-native" % "3.2.10",*/
     "com.propensive" %% "rapture-json-json4s" % "1.0.6",
+    "org.scalaz" %% "scalaz-core" % "7.1.0",
+    "com.propensive" %% "rapture-core-scalaz" % "1.0.0",
     // testing libraries
     "org.specs2" %% "specs2" % "2.4.6" % "test"  
   )
